@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "novel_method": "percolation_threshold_readability",
+    "description": "First application of network percolation theory to readability",
+    "train_size": 1500,
+    "test_size": 500,
+    "ptr_vs_baseline_mae_diff": 0.03829870127251267,
+    "ptr_vs_traditional_mae_diff": 0.5906937593642909,
+    "results_summary": {
+      "percolation_threshold": {
+        "mae": 1.164874760407982,
+        "acc1": 0.5,
+        "acc2": 0.836
+      },
+      "baseline_ml": {
+        "mae": 1.2031734616804948,
+        "acc1": 0.492,
+        "acc2": 0.812
+      },
+      "traditional_flesch_kincaid": {
+        "mae": 1.755568519772273,
+        "acc1": 0.512,
+        "acc2": 0.672
+      }
+    }
+  },
+  "datasets": [
+    {
+      "dataset": "test_set",
+      "examples": [
+        {
+          "input": "There are two ways that scientists talk about amnesia. First, amnesia can happen alongside other problems. For example, there are some diseases and injuries that can cause damage to the hippocampus an...",
+          "output": "10",
+          "predict_ptr": "8",
+          "predict_baseline": "7",
+          "predict_traditional": "9",
+          "metadata_true_grade": 10,
+          "metadata_ptr_error": 2.4753879205775178,
+          "metadata_baseline_error": 3.1027872706888076,
+          "metadata_traditional_error": 0.8339002932551303
+        },
+        {
+          "input": "Paralysis is most often caused by damage to the nervous system or brain , especially the spinal cord .",
+          "output": "6",
+          "predict_ptr": "5",
+          "predict_baseline": "5",
+          "predict_traditional": "8",
+          "metadata_true_grade": 6,
+          "metadata_ptr_error": 1.2899428612229231,
+          "metadata_baseline_error": 0.8321992829290794,
+          "metadata_traditional_error": 1.8544117647058833
+        },
+        {
+          "input": "It was the day of the spring races at Mystic Park, and Bethany was filled with strangers. Horsemen, sporting men, sightseers, touts, race-track gamblers, women in gay attire, and all the different kin...",
+          "output": "5",
+          "predict_ptr": "7",
+          "predict_baseline": "6",
+          "predict_traditional": "6",
+          "metadata_true_grade": 5,
+          "metadata_ptr_error": 1.6181322250814025,
+          "metadata_baseline_error": 0.933068121410801,
+          "metadata_traditional_error": 0.9545238095238133
+        }
+      ]
+    }
+  ]
+}

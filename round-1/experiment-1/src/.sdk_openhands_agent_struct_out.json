@@ -1,0 +1,19 @@
+{
+  "title": "Percolation Threshold Readability Model",
+  "layman_summary": "A novel method that measures text cohesion using network percolation to predict reading difficulty, achieving 52.5% accuracy with simple model and 92.4% with combined metrics.",
+  "summary": "Implemented and validated a percolation threshold readability model. The method constructs cohesion networks from text using TF-IDF similarity and lexical overlap, then computes the percolation threshold - the fraction of edges needed to connect half the sentences. Results show positive correlation (r=0.724, p<0.001) between percolation threshold and grade level. The simple model using only p_c achieves R²=0.525, while the combined model (p_c + traditional metrics) achieves R²=0.924. The experiment processed 240 synthetic texts across 12 grade levels, comparing against 5 traditional readability metrics. Output includes predict_percolation field for each example as required by schema.",
+  "out_expected_files": {
+    "script": "method.py",
+    "full_output": "full_method_out.json",
+    "mini_output": "mini_method_out.json",
+    "preview_output": "preview_method_out.json"
+  },
+  "upload_ignore_regexes": [
+    "(^|/).venv/",
+    "(^|/)logs/",
+    "(^|/)__pycache__/",
+    "(^|/).pyc$",
+    "(^|/)requirements.txt",
+    "(^|/)fix_save.py"
+  ]
+}

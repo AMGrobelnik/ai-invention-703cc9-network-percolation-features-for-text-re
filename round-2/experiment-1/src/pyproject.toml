@@ -1,0 +1,13 @@
+[project]
+name = "percolation-threshold-readability"
+version = "0.1.0"
+description = "Novel ML method for text readability using percolation theory"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy==2.5.0",
+    "pandas==3.0.3",
+    "scikit-learn==1.9.0",
+    "scipy==1.18.0",
+    "loguru==0.7.3",
+    "jsonschema==4.26.0",
+]

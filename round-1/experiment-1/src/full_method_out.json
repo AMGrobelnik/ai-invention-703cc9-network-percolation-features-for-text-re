@@ -1,0 +1,1282 @@
+{
+  "metadata": {
+    "method": "percolation_readability",
+    "correlations": {
+      "percolation_vs_grade": {
+        "pearson_r": 0.7243106461779121,
+        "p_value": 2.6234391739433636e-40,
+        "spearman_r": 0.7367415814300534,
+        "spearman_p": 2.5023494366110282e-42
+      },
+      "baseline_comparisons": {
+        "flesch_kincaid": {
+          "pearson_r": 0.9398641772855573,
+          "p_value": 5.02963739621271e-113
+        },
+        "dale_chall": {
+          "pearson_r": 0.9302811019759041,
+          "p_value": 1.2355431582955907e-105
+        },
+        "gunning_fog": {
+          "pearson_r": 0.9279304238345378,
+          "p_value": 5.542990255304132e-104
+        },
+        "smog": {
+          "pearson_r": 0.9459195674170517,
+          "p_value": 2.370110590609111e-118
+        },
+        "coleman_liau": {
+          "pearson_r": 0.9516924652706339,
+          "p_value": 4.911742224181004e-124
+        }
+      }
+    },
+    "regression": {
+      "simple_model": {
+        "r2": 0.5246259121666645,
+        "rmse": 2.3800996925928506,
+        "coefficient": 7.177487475253874,
+        "intercept": 1.9815460000487999
+      },
+      "combined_model": {
+        "r2": 0.921277800664069,
+        "rmse": 0.9685588308167852,
+        "delta_r2": 0.3966518884974044
+      },
+      "test_evaluation": {
+        "rmse": 2.5389726802201587,
+        "r2": 0.542254607447111
+      }
+    },
+    "robustness": {
+      "mean_std_across_texts": 0.01518396551005172,
+      "ablation_results": {
+        "full": {
+          "pearson_r": NaN,
+          "p_value": NaN,
+          "spearman_r": NaN,
+          "spearman_p": NaN
+        },
+        "semantic_only": {
+          "pearson_r": NaN,
+          "p_value": NaN,
+          "spearman_r": NaN,
+          "spearman_p": NaN
+        },
+        "lexical_only": {
+          "pearson_r": NaN,
+          "p_value": NaN,
+          "spearman_r": NaN,
+          "spearman_p": NaN
+        }
+      }
+    }
+  },
+  "datasets": [
+    {
+      "dataset": "synthetic_readability",
+      "examples": [
+        {
+          "input": "Text ID: synthetic_1_0",
+          "output": "1.0",
+          "predict_percolation": "2.0"
+        },
+        {
+          "input": "Text ID: synthetic_1_1",
+          "output": "1.0",
+          "predict_percolation": "2.0"
+        },
+        {
+          "input": "Text ID: synthetic_1_2",
+          "output": "1.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_1_3",
+          "output": "1.0",
+          "predict_percolation": "2.0"
+        },
+        {
+          "input": "Text ID: synthetic_1_4",
+          "output": "1.0",
+          "predict_percolation": "1.2"
+        },
+        {
+          "input": "Text ID: synthetic_1_5",
+          "output": "1.0",
+          "predict_percolation": "2.0"
+        },
+        {
+          "input": "Text ID: synthetic_1_6",
+          "output": "1.0",
+          "predict_percolation": "2.0"
+        },
+        {
+          "input": "Text ID: synthetic_1_7",
+          "output": "1.0",
+          "predict_percolation": "3.0"
+        },
+        {
+          "input": "Text ID: synthetic_1_8",
+          "output": "1.0",
+          "predict_percolation": "1.2"
+        },
+        {
+          "input": "Text ID: synthetic_1_9",
+          "output": "1.0",
+          "predict_percolation": "1.2"
+        },
+        {
+          "input": "Text ID: synthetic_1_10",
+          "output": "1.0",
+          "predict_percolation": "2.0"
+        },
+        {
+          "input": "Text ID: synthetic_1_11",
+          "output": "1.0",
+          "predict_percolation": "1.2"
+        },
+        {
+          "input": "Text ID: synthetic_1_12",
+          "output": "1.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_1_13",
+          "output": "1.0",
+          "predict_percolation": "2.0"
+        },
+        {
+          "input": "Text ID: synthetic_1_14",
+          "output": "1.0",
+          "predict_percolation": "2.0"
+        },
+        {
+          "input": "Text ID: synthetic_1_15",
+          "output": "1.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_1_16",
+          "output": "1.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_1_17",
+          "output": "1.0",
+          "predict_percolation": "1.2"
+        },
+        {
+          "input": "Text ID: synthetic_1_18",
+          "output": "1.0",
+          "predict_percolation": "1.2"
+        },
+        {
+          "input": "Text ID: synthetic_1_19",
+          "output": "1.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_2_0",
+          "output": "2.0",
+          "predict_percolation": "2.0"
+        },
+        {
+          "input": "Text ID: synthetic_2_1",
+          "output": "2.0",
+          "predict_percolation": "2.0"
+        },
+        {
+          "input": "Text ID: synthetic_2_2",
+          "output": "2.0",
+          "predict_percolation": "2.0"
+        },
+        {
+          "input": "Text ID: synthetic_2_3",
+          "output": "2.0",
+          "predict_percolation": "2.0"
+        },
+        {
+          "input": "Text ID: synthetic_2_4",
+          "output": "2.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_2_5",
+          "output": "2.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_2_6",
+          "output": "2.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_2_7",
+          "output": "2.0",
+          "predict_percolation": "2.0"
+        },
+        {
+          "input": "Text ID: synthetic_2_8",
+          "output": "2.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_2_9",
+          "output": "2.0",
+          "predict_percolation": "1.2"
+        },
+        {
+          "input": "Text ID: synthetic_2_10",
+          "output": "2.0",
+          "predict_percolation": "2.0"
+        },
+        {
+          "input": "Text ID: synthetic_2_11",
+          "output": "2.0",
+          "predict_percolation": "2.0"
+        },
+        {
+          "input": "Text ID: synthetic_2_12",
+          "output": "2.0",
+          "predict_percolation": "2.0"
+        },
+        {
+          "input": "Text ID: synthetic_2_13",
+          "output": "2.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_2_14",
+          "output": "2.0",
+          "predict_percolation": "2.0"
+        },
+        {
+          "input": "Text ID: synthetic_2_15",
+          "output": "2.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_2_16",
+          "output": "2.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_2_17",
+          "output": "2.0",
+          "predict_percolation": "2.0"
+        },
+        {
+          "input": "Text ID: synthetic_2_18",
+          "output": "2.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_2_19",
+          "output": "2.0",
+          "predict_percolation": "1.33"
+        },
+        {
+          "input": "Text ID: synthetic_3_0",
+          "output": "3.0",
+          "predict_percolation": "2.0"
+        },
+        {
+          "input": "Text ID: synthetic_3_1",
+          "output": "3.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_3_2",
+          "output": "3.0",
+          "predict_percolation": "1.2"
+        },
+        {
+          "input": "Text ID: synthetic_3_3",
+          "output": "3.0",
+          "predict_percolation": "2.0"
+        },
+        {
+          "input": "Text ID: synthetic_3_4",
+          "output": "3.0",
+          "predict_percolation": "1.2"
+        },
+        {
+          "input": "Text ID: synthetic_3_5",
+          "output": "3.0",
+          "predict_percolation": "1.2"
+        },
+        {
+          "input": "Text ID: synthetic_3_6",
+          "output": "3.0",
+          "predict_percolation": "1.2"
+        },
+        {
+          "input": "Text ID: synthetic_3_7",
+          "output": "3.0",
+          "predict_percolation": "1.2"
+        },
+        {
+          "input": "Text ID: synthetic_3_8",
+          "output": "3.0",
+          "predict_percolation": "2.0"
+        },
+        {
+          "input": "Text ID: synthetic_3_9",
+          "output": "3.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_3_10",
+          "output": "3.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_3_11",
+          "output": "3.0",
+          "predict_percolation": "2.0"
+        },
+        {
+          "input": "Text ID: synthetic_3_12",
+          "output": "3.0",
+          "predict_percolation": "1.2"
+        },
+        {
+          "input": "Text ID: synthetic_3_13",
+          "output": "3.0",
+          "predict_percolation": "1.2"
+        },
+        {
+          "input": "Text ID: synthetic_3_14",
+          "output": "3.0",
+          "predict_percolation": "2.0"
+        },
+        {
+          "input": "Text ID: synthetic_3_15",
+          "output": "3.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_3_16",
+          "output": "3.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_3_17",
+          "output": "3.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_3_18",
+          "output": "3.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_3_19",
+          "output": "3.0",
+          "predict_percolation": "1.33"
+        },
+        {
+          "input": "Text ID: synthetic_4_0",
+          "output": "4.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_4_1",
+          "output": "4.0",
+          "predict_percolation": "6.0"
+        },
+        {
+          "input": "Text ID: synthetic_4_2",
+          "output": "4.0",
+          "predict_percolation": "7.8"
+        },
+        {
+          "input": "Text ID: synthetic_4_3",
+          "output": "4.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_4_4",
+          "output": "4.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_4_5",
+          "output": "4.0",
+          "predict_percolation": "6.0"
+        },
+        {
+          "input": "Text ID: synthetic_4_6",
+          "output": "4.0",
+          "predict_percolation": "6.0"
+        },
+        {
+          "input": "Text ID: synthetic_4_7",
+          "output": "4.0",
+          "predict_percolation": "6.0"
+        },
+        {
+          "input": "Text ID: synthetic_4_8",
+          "output": "4.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_4_9",
+          "output": "4.0",
+          "predict_percolation": "3.0"
+        },
+        {
+          "input": "Text ID: synthetic_4_10",
+          "output": "4.0",
+          "predict_percolation": "6.0"
+        },
+        {
+          "input": "Text ID: synthetic_4_11",
+          "output": "4.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_4_12",
+          "output": "4.0",
+          "predict_percolation": "7.86"
+        },
+        {
+          "input": "Text ID: synthetic_4_13",
+          "output": "4.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_4_14",
+          "output": "4.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_4_15",
+          "output": "4.0",
+          "predict_percolation": "6.0"
+        },
+        {
+          "input": "Text ID: synthetic_4_16",
+          "output": "4.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_4_17",
+          "output": "4.0",
+          "predict_percolation": "6.0"
+        },
+        {
+          "input": "Text ID: synthetic_4_18",
+          "output": "4.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_4_19",
+          "output": "4.0",
+          "predict_percolation": "2.0"
+        },
+        {
+          "input": "Text ID: synthetic_5_0",
+          "output": "5.0",
+          "predict_percolation": "3.0"
+        },
+        {
+          "input": "Text ID: synthetic_5_1",
+          "output": "5.0",
+          "predict_percolation": "7.5"
+        },
+        {
+          "input": "Text ID: synthetic_5_2",
+          "output": "5.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_5_3",
+          "output": "5.0",
+          "predict_percolation": "6.0"
+        },
+        {
+          "input": "Text ID: synthetic_5_4",
+          "output": "5.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_5_5",
+          "output": "5.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_5_6",
+          "output": "5.0",
+          "predict_percolation": "6.0"
+        },
+        {
+          "input": "Text ID: synthetic_5_7",
+          "output": "5.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_5_8",
+          "output": "5.0",
+          "predict_percolation": "6.0"
+        },
+        {
+          "input": "Text ID: synthetic_5_9",
+          "output": "5.0",
+          "predict_percolation": "7.56"
+        },
+        {
+          "input": "Text ID: synthetic_5_10",
+          "output": "5.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_5_11",
+          "output": "5.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_5_12",
+          "output": "5.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_5_13",
+          "output": "5.0",
+          "predict_percolation": "2.0"
+        },
+        {
+          "input": "Text ID: synthetic_5_14",
+          "output": "5.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_5_15",
+          "output": "5.0",
+          "predict_percolation": "6.0"
+        },
+        {
+          "input": "Text ID: synthetic_5_16",
+          "output": "5.0",
+          "predict_percolation": "6.0"
+        },
+        {
+          "input": "Text ID: synthetic_5_17",
+          "output": "5.0",
+          "predict_percolation": "7.38"
+        },
+        {
+          "input": "Text ID: synthetic_5_18",
+          "output": "5.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_5_19",
+          "output": "5.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_6_0",
+          "output": "6.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_6_1",
+          "output": "6.0",
+          "predict_percolation": "2.0"
+        },
+        {
+          "input": "Text ID: synthetic_6_2",
+          "output": "6.0",
+          "predict_percolation": "7.5"
+        },
+        {
+          "input": "Text ID: synthetic_6_3",
+          "output": "6.0",
+          "predict_percolation": "6.0"
+        },
+        {
+          "input": "Text ID: synthetic_6_4",
+          "output": "6.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_6_5",
+          "output": "6.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_6_6",
+          "output": "6.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_6_7",
+          "output": "6.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_6_8",
+          "output": "6.0",
+          "predict_percolation": "7.38"
+        },
+        {
+          "input": "Text ID: synthetic_6_9",
+          "output": "6.0",
+          "predict_percolation": "7.38"
+        },
+        {
+          "input": "Text ID: synthetic_6_10",
+          "output": "6.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_6_11",
+          "output": "6.0",
+          "predict_percolation": "6.0"
+        },
+        {
+          "input": "Text ID: synthetic_6_12",
+          "output": "6.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_6_13",
+          "output": "6.0",
+          "predict_percolation": "7.74"
+        },
+        {
+          "input": "Text ID: synthetic_6_14",
+          "output": "6.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_6_15",
+          "output": "6.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_6_16",
+          "output": "6.0",
+          "predict_percolation": "6.0"
+        },
+        {
+          "input": "Text ID: synthetic_6_17",
+          "output": "6.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_6_18",
+          "output": "6.0",
+          "predict_percolation": "3.0"
+        },
+        {
+          "input": "Text ID: synthetic_6_19",
+          "output": "6.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_7_0",
+          "output": "7.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_7_1",
+          "output": "7.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_7_2",
+          "output": "7.0",
+          "predict_percolation": "4.28"
+        },
+        {
+          "input": "Text ID: synthetic_7_3",
+          "output": "7.0",
+          "predict_percolation": "7.44"
+        },
+        {
+          "input": "Text ID: synthetic_7_4",
+          "output": "7.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_7_5",
+          "output": "7.0",
+          "predict_percolation": "4.36"
+        },
+        {
+          "input": "Text ID: synthetic_7_6",
+          "output": "7.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_7_7",
+          "output": "7.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_7_8",
+          "output": "7.0",
+          "predict_percolation": "7.44"
+        },
+        {
+          "input": "Text ID: synthetic_7_9",
+          "output": "7.0",
+          "predict_percolation": "2.0"
+        },
+        {
+          "input": "Text ID: synthetic_7_10",
+          "output": "7.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_7_11",
+          "output": "7.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_7_12",
+          "output": "7.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_7_13",
+          "output": "7.0",
+          "predict_percolation": "7.38"
+        },
+        {
+          "input": "Text ID: synthetic_7_14",
+          "output": "7.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_7_15",
+          "output": "7.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_7_16",
+          "output": "7.0",
+          "predict_percolation": "7.68"
+        },
+        {
+          "input": "Text ID: synthetic_7_17",
+          "output": "7.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_7_18",
+          "output": "7.0",
+          "predict_percolation": "5.52"
+        },
+        {
+          "input": "Text ID: synthetic_7_19",
+          "output": "7.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_8_0",
+          "output": "8.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_8_1",
+          "output": "8.0",
+          "predict_percolation": "7.34"
+        },
+        {
+          "input": "Text ID: synthetic_8_2",
+          "output": "8.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_8_3",
+          "output": "8.0",
+          "predict_percolation": "4.25"
+        },
+        {
+          "input": "Text ID: synthetic_8_4",
+          "output": "8.0",
+          "predict_percolation": "7.32"
+        },
+        {
+          "input": "Text ID: synthetic_8_5",
+          "output": "8.0",
+          "predict_percolation": "4.13"
+        },
+        {
+          "input": "Text ID: synthetic_8_6",
+          "output": "8.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_8_7",
+          "output": "8.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_8_8",
+          "output": "8.0",
+          "predict_percolation": "6.0"
+        },
+        {
+          "input": "Text ID: synthetic_8_9",
+          "output": "8.0",
+          "predict_percolation": "6.0"
+        },
+        {
+          "input": "Text ID: synthetic_8_10",
+          "output": "8.0",
+          "predict_percolation": "8.0"
+        },
+        {
+          "input": "Text ID: synthetic_8_11",
+          "output": "8.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_8_12",
+          "output": "8.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_8_13",
+          "output": "8.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_8_14",
+          "output": "8.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_8_15",
+          "output": "8.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_8_16",
+          "output": "8.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_8_17",
+          "output": "8.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_8_18",
+          "output": "8.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_8_19",
+          "output": "8.0",
+          "predict_percolation": "5.08"
+        },
+        {
+          "input": "Text ID: synthetic_9_0",
+          "output": "9.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_9_1",
+          "output": "9.0",
+          "predict_percolation": "4.39"
+        },
+        {
+          "input": "Text ID: synthetic_9_2",
+          "output": "9.0",
+          "predict_percolation": "7.15"
+        },
+        {
+          "input": "Text ID: synthetic_9_3",
+          "output": "9.0",
+          "predict_percolation": "6.0"
+        },
+        {
+          "input": "Text ID: synthetic_9_4",
+          "output": "9.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_9_5",
+          "output": "9.0",
+          "predict_percolation": "4.0"
+        },
+        {
+          "input": "Text ID: synthetic_9_6",
+          "output": "9.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_9_7",
+          "output": "9.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_9_8",
+          "output": "9.0",
+          "predict_percolation": "2.86"
+        },
+        {
+          "input": "Text ID: synthetic_9_9",
+          "output": "9.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_9_10",
+          "output": "9.0",
+          "predict_percolation": "6.31"
+        },
+        {
+          "input": "Text ID: synthetic_9_11",
+          "output": "9.0",
+          "predict_percolation": "7.56"
+        },
+        {
+          "input": "Text ID: synthetic_9_12",
+          "output": "9.0",
+          "predict_percolation": "4.28"
+        },
+        {
+          "input": "Text ID: synthetic_9_13",
+          "output": "9.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_9_14",
+          "output": "9.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_9_15",
+          "output": "9.0",
+          "predict_percolation": "4.48"
+        },
+        {
+          "input": "Text ID: synthetic_9_16",
+          "output": "9.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_9_17",
+          "output": "9.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_9_18",
+          "output": "9.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_9_19",
+          "output": "9.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_10_0",
+          "output": "10.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_10_1",
+          "output": "10.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_10_2",
+          "output": "10.0",
+          "predict_percolation": "6.45"
+        },
+        {
+          "input": "Text ID: synthetic_10_3",
+          "output": "10.0",
+          "predict_percolation": "8.0"
+        },
+        {
+          "input": "Text ID: synthetic_10_4",
+          "output": "10.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_10_5",
+          "output": "10.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_10_6",
+          "output": "10.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_10_7",
+          "output": "10.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_10_8",
+          "output": "10.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_10_9",
+          "output": "10.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_10_10",
+          "output": "10.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_10_11",
+          "output": "10.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_10_12",
+          "output": "10.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_10_13",
+          "output": "10.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_10_14",
+          "output": "10.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_10_15",
+          "output": "10.0",
+          "predict_percolation": "7.62"
+        },
+        {
+          "input": "Text ID: synthetic_10_16",
+          "output": "10.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_10_17",
+          "output": "10.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_10_18",
+          "output": "10.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_10_19",
+          "output": "10.0",
+          "predict_percolation": "8.0"
+        },
+        {
+          "input": "Text ID: synthetic_11_0",
+          "output": "11.0",
+          "predict_percolation": "7.44"
+        },
+        {
+          "input": "Text ID: synthetic_11_1",
+          "output": "11.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_11_2",
+          "output": "11.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_11_3",
+          "output": "11.0",
+          "predict_percolation": "8.0"
+        },
+        {
+          "input": "Text ID: synthetic_11_4",
+          "output": "11.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_11_5",
+          "output": "11.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_11_6",
+          "output": "11.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_11_7",
+          "output": "11.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_11_8",
+          "output": "11.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_11_9",
+          "output": "11.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_11_10",
+          "output": "11.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_11_11",
+          "output": "11.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_11_12",
+          "output": "11.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_11_13",
+          "output": "11.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_11_14",
+          "output": "11.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_11_15",
+          "output": "11.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_11_16",
+          "output": "11.0",
+          "predict_percolation": "7.06"
+        },
+        {
+          "input": "Text ID: synthetic_11_17",
+          "output": "11.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_11_18",
+          "output": "11.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_11_19",
+          "output": "11.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_12_0",
+          "output": "12.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_12_1",
+          "output": "12.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_12_2",
+          "output": "12.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_12_3",
+          "output": "12.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_12_4",
+          "output": "12.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_12_5",
+          "output": "12.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_12_6",
+          "output": "12.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_12_7",
+          "output": "12.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_12_8",
+          "output": "12.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_12_9",
+          "output": "12.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_12_10",
+          "output": "12.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_12_11",
+          "output": "12.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_12_12",
+          "output": "12.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_12_13",
+          "output": "12.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_12_14",
+          "output": "12.0",
+          "predict_percolation": "5.66"
+        },
+        {
+          "input": "Text ID: synthetic_12_15",
+          "output": "12.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_12_16",
+          "output": "12.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_12_17",
+          "output": "12.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_12_18",
+          "output": "12.0",
+          "predict_percolation": "12.0"
+        },
+        {
+          "input": "Text ID: synthetic_12_19",
+          "output": "12.0",
+          "predict_percolation": "12.0"
+        }
+      ]
+    }
+  ]
+}

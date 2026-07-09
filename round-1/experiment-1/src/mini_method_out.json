@@ -1,0 +1,97 @@
+{
+  "metadata": {
+    "method": "percolation_readability",
+    "correlations": {
+      "percolation_vs_grade": {
+        "pearson_r": 0.7243106461779121,
+        "p_value": 2.6234391739433636e-40,
+        "spearman_r": 0.7367415814300534,
+        "spearman_p": 2.5023494366110282e-42
+      },
+      "baseline_comparisons": {
+        "flesch_kincaid": {
+          "pearson_r": 0.9398641772855573,
+          "p_value": 5.02963739621271e-113
+        },
+        "dale_chall": {
+          "pearson_r": 0.9302811019759041,
+          "p_value": 1.2355431582955907e-105
+        },
+        "gunning_fog": {
+          "pearson_r": 0.9279304238345378,
+          "p_value": 5.542990255304132e-104
+        },
+        "smog": {
+          "pearson_r": 0.9459195674170517,
+          "p_value": 2.370110590609111e-118
+        },
+        "coleman_liau": {
+          "pearson_r": 0.9516924652706339,
+          "p_value": 4.911742224181004e-124
+        }
+      }
+    },
+    "regression": {
+      "simple_model": {
+        "r2": 0.5246259121666645,
+        "rmse": 2.3800996925928506,
+        "coefficient": 7.177487475253874,
+        "intercept": 1.9815460000487999
+      },
+      "combined_model": {
+        "r2": 0.921277800664069,
+        "rmse": 0.9685588308167852,
+        "delta_r2": 0.3966518884974044
+      },
+      "test_evaluation": {
+        "rmse": 2.5389726802201587,
+        "r2": 0.542254607447111
+      }
+    },
+    "robustness": {
+      "mean_std_across_texts": 0.01518396551005172,
+      "ablation_results": {
+        "full": {
+          "pearson_r": NaN,
+          "p_value": NaN,
+          "spearman_r": NaN,
+          "spearman_p": NaN
+        },
+        "semantic_only": {
+          "pearson_r": NaN,
+          "p_value": NaN,
+          "spearman_r": NaN,
+          "spearman_p": NaN
+        },
+        "lexical_only": {
+          "pearson_r": NaN,
+          "p_value": NaN,
+          "spearman_r": NaN,
+          "spearman_p": NaN
+        }
+      }
+    }
+  },
+  "datasets": [
+    {
+      "dataset": "synthetic_readability",
+      "examples": [
+        {
+          "input": "Text ID: synthetic_1_0",
+          "output": "1.0",
+          "predict_percolation": "2.0"
+        },
+        {
+          "input": "Text ID: synthetic_1_1",
+          "output": "1.0",
+          "predict_percolation": "2.0"
+        },
+        {
+          "input": "Text ID: synthetic_1_2",
+          "output": "1.0",
+          "predict_percolation": "4.0"
+        }
+      ]
+    }
+  ]
+}

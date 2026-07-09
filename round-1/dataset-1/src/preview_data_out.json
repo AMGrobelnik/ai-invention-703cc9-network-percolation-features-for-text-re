@@ -1,0 +1,99 @@
+{
+  "datasets": [
+    {
+      "dataset": "CEFR-SP",
+      "examples": [
+        {
+          "input": "In addition , there was the matter of the Ruhr .",
+          "output": "4",
+          "metadata_source": "CEFR-SP",
+          "metadata_id": "cefr_3691",
+          "metadata_grade_level": 4
+        },
+        {
+          "input": "A neutral atom has the same number of electrons as protons .",
+          "output": "6",
+          "metadata_source": "CEFR-SP",
+          "metadata_id": "cefr_6734",
+          "metadata_grade_level": 6
+        },
+        {
+          "input": "TUTTs sometimes brings a large amount of vertical wind shear over tropical disturbances in the deep tropics and cyclones and thus hinder their development .",
+          "output": "6",
+          "metadata_source": "CEFR-SP",
+          "metadata_id": "cefr_6315",
+          "metadata_grade_level": 6
+        }
+      ]
+    },
+    {
+      "dataset": "CommonLit",
+      "examples": [
+        {
+          "input": "My method of testing olive oil is as follows:\nFirst, the so-called elaidine test is made, and then the test with nitric acid. About 5 c. c. (a teaspoonful) of the oil is mixed in a test tube with its ...",
+          "output": "11",
+          "metadata_source": "CommonLit",
+          "metadata_id": "commonlit_train_2932",
+          "metadata_grade_level": 11
+        },
+        {
+          "input": "Tornadoes usually form from large thunderstorms. When the winds beneath a storm are unstable, they blow at different speeds. These unstable winds underneath the thunderstorm can begin to rotate. If th...",
+          "output": "5",
+          "metadata_source": "CommonLit",
+          "metadata_id": "commonlit_train_2318",
+          "metadata_grade_level": 5
+        },
+        {
+          "input": "The rowers were all too tired and enraged to talk much, and the journey down stream was silent and gloomy. They heard, about a mile from home, the school bell ringing for call-over, and groaned inward...",
+          "output": "5",
+          "metadata_source": "CommonLit",
+          "metadata_id": "commonlit_train_476",
+          "metadata_grade_level": 5
+        }
+      ]
+    },
+    {
+      "dataset": "OneStopEnglish",
+      "examples": [
+        {
+          "input": "Standing at the edge of space above the deserts of New Mexico, Felix Baumgartner paused slightly. It was a small step away from the capsule, but a 24-mile drop back down to Earth. \u201cOur guardian angel ...",
+          "output": "11",
+          "metadata_source": "OneStopEnglish",
+          "metadata_id": "onestop_train_142",
+          "metadata_grade_level": 11
+        },
+        {
+          "input": "Until the end, David Bowie, who has died of cancer, still surprised us. His latest album, Blackstar, appeared on his 69th birthday on 8 January 2016. It showed that he hadn\u2019t stopped making challengin...",
+          "output": "3",
+          "metadata_source": "OneStopEnglish",
+          "metadata_id": "onestop_test_322",
+          "metadata_grade_level": 3
+        },
+        {
+          "input": "From glow-in-the-dark trees to underground bike sheds and solar-powered bins, we look at some of the more leftfield solutions to help make our cities more livable. \nCity living has many upsides but a ...",
+          "output": "11",
+          "metadata_source": "OneStopEnglish",
+          "metadata_id": "onestop_test_161",
+          "metadata_grade_level": 11
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "task": "readability_assessment",
+    "description": "Text readability scoring with grade level labels (1-12)",
+    "total_examples": 12469,
+    "num_datasets": 7,
+    "grade_range": [
+      1,
+      12
+    ],
+    "format": "input=text, output=grade_level (1-12)",
+    "selected_datasets": [
+      "OneStopEnglish",
+      "CommonLit",
+      "CEFR-SP"
+    ],
+    "selection_criteria": "Ground-truth labels from educators (not algorithm-derived)"
+  }
+}
