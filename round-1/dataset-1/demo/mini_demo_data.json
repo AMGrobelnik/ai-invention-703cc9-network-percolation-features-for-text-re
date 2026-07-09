@@ -1,0 +1,90 @@
+{
+  "datasets": [
+    {
+      "dataset": "ReadabilityDemo",
+      "examples": [
+        {
+          "input": "See LONG-TERM PRIME RATE.",
+          "output": "1",
+          "metadata_source": "Demo",
+          "metadata_id": "demo_1",
+          "metadata_grade_level": 1
+        },
+        {
+          "input": "The cat sat on the mat. The dog ran fast. Birds fly high in the sky.",
+          "output": "2",
+          "metadata_source": "Demo",
+          "metadata_id": "demo_2",
+          "metadata_grade_level": 2
+        },
+        {
+          "input": "Until the end, David Bowie, who has died of cancer, still surprised us.",
+          "output": "3",
+          "metadata_source": "Demo",
+          "metadata_id": "demo_3",
+          "metadata_grade_level": 3
+        },
+        {
+          "input": "In addition, there was the matter of the Ruhr. The river flows through several countries.",
+          "output": "4",
+          "metadata_source": "Demo",
+          "metadata_id": "demo_4",
+          "metadata_grade_level": 4
+        },
+        {
+          "input": "Tornadoes usually form from large thunderstorms. When the winds beneath a storm are unstable.",
+          "output": "5",
+          "metadata_source": "Demo",
+          "metadata_id": "demo_5",
+          "metadata_grade_level": 5
+        },
+        {
+          "input": "A neutral atom has the same number of electrons as protons. The atomic number determines the element.",
+          "output": "6",
+          "metadata_source": "Demo",
+          "metadata_id": "demo_6",
+          "metadata_grade_level": 6
+        },
+        {
+          "input": "Photosynthesis is the process by which green plants use sunlight to synthesize foods.",
+          "output": "7",
+          "metadata_source": "Demo",
+          "metadata_id": "demo_7",
+          "metadata_grade_level": 7
+        },
+        {
+          "input": "The cell membrane is a biological membrane that separates the interior of all cells.",
+          "output": "8",
+          "metadata_source": "Demo",
+          "metadata_id": "demo_8",
+          "metadata_grade_level": 8
+        },
+        {
+          "input": "Quantum mechanics is the branch of physics relating to the very small.",
+          "output": "10",
+          "metadata_source": "Demo",
+          "metadata_id": "demo_10",
+          "metadata_grade_level": 10
+        },
+        {
+          "input": "The philosophical implications of quantum entanglement necessitate a fundamental reconceptualization.",
+          "output": "12",
+          "metadata_source": "Demo",
+          "metadata_id": "demo_12",
+          "metadata_grade_level": 12
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "task": "readability_assessment",
+    "description": "Demo subset of readability assessment data",
+    "total_examples": 10,
+    "num_datasets": 1,
+    "grade_range": [
+      1,
+      12
+    ],
+    "format": "input=text, output=grade_level (1-12)"
+  }
+}

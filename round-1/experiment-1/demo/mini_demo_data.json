@@ -1,0 +1,81 @@
+{
+  "dataset_info": {
+    "name": "synthetic_readability_demo",
+    "description": "Curated demo dataset for percolation threshold readability model",
+    "num_examples": 12
+  },
+  "examples": [
+    {
+      "text_id": "demo_grade1_1",
+      "content": "The cat is on the mat. The cat sits on the mat. The cat sleeps on the mat. The dog is on the rug.",
+      "grade_level": 1.0,
+      "metadata": {"source": "synthetic", "cohesion": "high"}
+    },
+    {
+      "text_id": "demo_grade1_2",
+      "content": "Birds fly in the sky. Birds sing in the trees. Birds build nests in spring. Fish swim in the water.",
+      "grade_level": 1.0,
+      "metadata": {"source": "synthetic", "cohesion": "high"}
+    },
+    {
+      "text_id": "demo_grade3_1",
+      "content": "Children play in the park. The park has many trees. Trees provide shade on sunny days. Children climb the trees carefully.",
+      "grade_level": 3.0,
+      "metadata": {"source": "synthetic", "cohesion": "medium"}
+    },
+    {
+      "text_id": "demo_grade3_2",
+      "content": "Students learn about science. Science experiments are fun to do. Teachers help students understand concepts. Learning happens every day in class.",
+      "grade_level": 3.0,
+      "metadata": {"source": "synthetic", "cohesion": "medium"}
+    },
+    {
+      "text_id": "demo_grade6_1",
+      "content": "The ecosystem consists of living organisms and their physical environment. These components interact through complex food webs and nutrient cycles. Biodiversity ensures ecosystem resilience against environmental changes. Conservation efforts aim to protect endangered species habitats.",
+      "grade_level": 6.0,
+      "metadata": {"source": "synthetic", "cohesion": "medium-low"}
+    },
+    {
+      "text_id": "demo_grade6_2",
+      "content": "Scientists conduct experiments to test hypotheses about natural phenomena. The scientific method requires careful observation and data collection. Results must be reproducible by other researchers in the field. Peer review ensures the quality of published findings.",
+      "grade_level": 6.0,
+      "metadata": {"source": "synthetic", "cohesion": "medium-low"}
+    },
+    {
+      "text_id": "demo_grade9_1",
+      "content": "Photosynthesis converts light energy into chemical energy stored in glucose molecules. This process occurs in chloroplasts containing chlorophyll pigments. The Calvin cycle uses ATP and NADPH to synthesize carbohydrates from carbon dioxide. Cellular respiration subsequently releases this stored energy for metabolic processes.",
+      "grade_level": 9.0,
+      "metadata": {"source": "synthetic", "cohesion": "low"}
+    },
+    {
+      "text_id": "demo_grade9_2",
+      "content": "Democratic institutions require active civic engagement from informed citizens. Constitutional frameworks establish checks and balances among government branches. Judicial review ensures legislative compliance with fundamental rights protections. Electoral systems must balance representation with administrative efficiency.",
+      "grade_level": 9.0,
+      "metadata": {"source": "synthetic", "cohesion": "low"}
+    },
+    {
+      "text_id": "demo_grade12_1",
+      "content": "Quantum mechanical systems exhibit wave-particle duality under measurement conditions. The Schrödinger equation describes probability amplitude evolution in Hilbert space. Entanglement phenomena challenge classical notions of locality and causality. Decoherence mechanisms explain the transition from quantum to classical regimes in macroscopic systems.",
+      "grade_level": 12.0,
+      "metadata": {"source": "synthetic", "cohesion": "very-low"}
+    },
+    {
+      "text_id": "demo_grade12_2",
+      "content": "Poststructuralist epistemologies interrogate the relationship between discursive practices and power relations. Hegemonic narratives marginalize alternative knowledge systems through institutional mechanisms. Deconstructive methodologies reveal inherent contradictions within foundational philosophical texts. Phenomenological approaches prioritize subjective experience over objective measurement in consciousness studies.",
+      "grade_level": 12.0,
+      "metadata": {"source": "synthetic", "cohesion": "very-low"}
+    },
+    {
+      "text_id": "demo_grade12_3",
+      "content": "Neuroplasticity enables cortical reorganization following peripheral nerve damage. Synaptic pruning eliminates redundant neural connections during developmental critical periods. Long-term potentiation strengthens frequently activated synaptic pathways through NMDA receptor activation. Glial cells modulate neuronal signaling through neurotransmitter reuptake and cytokine release.",
+      "grade_level": 12.0,
+      "metadata": {"source": "synthetic", "cohesion": "very-low"}
+    },
+    {
+      "text_id": "demo_grade12_4",
+      "content": "Stochastic differential equations model continuous-time diffusion processes in financial mathematics. Martingale theory provides frameworks for pricing derivative securities under uncertainty. Copula functions capture nonlinear dependence structures in multivariate risk models. Monte Carlo simulations approximate high-dimensional integrals in Bayesian inference problems.",
+      "grade_level": 12.0,
+      "metadata": {"source": "synthetic", "cohesion": "very-low"}
+    }
+  ]
+}

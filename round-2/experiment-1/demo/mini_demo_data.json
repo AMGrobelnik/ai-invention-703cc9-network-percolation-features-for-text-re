@@ -1,0 +1,345 @@
+{
+  "datasets": [
+    {
+      "dataset": "CEFR-SP",
+      "examples": [
+        {
+          "input": "In addition , there was the matter of the Ruhr .",
+          "output": "4",
+          "metadata_source": "CEFR-SP",
+          "metadata_id": "cefr_3691",
+          "metadata_grade_level": 4
+        },
+        {
+          "input": "A neutral atom has the same number of electrons as protons .",
+          "output": "6",
+          "metadata_source": "CEFR-SP",
+          "metadata_id": "cefr_6734",
+          "metadata_grade_level": 6
+        },
+        {
+          "input": "TUTTs sometimes brings a large amount of vertical wind shear over tropical disturbances in the deep tropics and cyclones and thus hinder their development .",
+          "output": "6",
+          "metadata_source": "CEFR-SP",
+          "metadata_id": "cefr_6315",
+          "metadata_grade_level": 6
+        },
+        {
+          "input": "The film generated mostly positive reviews , and performances from the cast were praised .",
+          "output": "6",
+          "metadata_source": "CEFR-SP",
+          "metadata_id": "cefr_5322",
+          "metadata_grade_level": 6
+        },
+        {
+          "input": "Everyone began to sing as best as they could .",
+          "output": "2",
+          "metadata_source": "CEFR-SP",
+          "metadata_id": "cefr_938",
+          "metadata_grade_level": 2
+        },
+        {
+          "input": "Gout often happens with other medical problems .",
+          "output": "4",
+          "metadata_source": "CEFR-SP",
+          "metadata_id": "cefr_3481",
+          "metadata_grade_level": 4
+        },
+        {
+          "input": "After World War II , European integration was seen as an antidote to the extreme nationalism which had devastated the continent .",
+          "output": "8",
+          "metadata_source": "CEFR-SP",
+          "metadata_id": "cefr_5755",
+          "metadata_grade_level": 8
+        },
+        {
+          "input": "In modern times , the waters are 70 % to 90 % used for human purposes and the flow is greatly reduced .",
+          "output": "4",
+          "metadata_source": "CEFR-SP",
+          "metadata_id": "cefr_4537",
+          "metadata_grade_level": 4
+        },
+        {
+          "input": "An Avenue of Honor also remembers those who died in World War I .",
+          "output": "2",
+          "metadata_source": "CEFR-SP",
+          "metadata_id": "cefr_1587",
+          "metadata_grade_level": 2
+        },
+        {
+          "input": "In the years between convict settlement and the start of the modern tourist industry the area most people worked in the timber industry and fishing .",
+          "output": "4",
+          "metadata_source": "CEFR-SP",
+          "metadata_id": "cefr_2602",
+          "metadata_grade_level": 4
+        },
+        {
+          "input": "An attack where a charging wrestler jumps striking both knees simultaneously into the head , chest or back of the opponent .",
+          "output": "6",
+          "metadata_source": "CEFR-SP",
+          "metadata_id": "cefr_4252",
+          "metadata_grade_level": 6
+        },
+        {
+          "input": "It 's time to go .",
+          "output": "1",
+          "metadata_source": "CEFR-SP",
+          "metadata_id": "cefr_282",
+          "metadata_grade_level": 1
+        },
+        {
+          "input": "The species has been introduced to the United States and New Zealand .",
+          "output": "2",
+          "metadata_source": "CEFR-SP",
+          "metadata_id": "cefr_3186",
+          "metadata_grade_level": 2
+        },
+        {
+          "input": "How many eggs did the chickens lay ?",
+          "output": "2",
+          "metadata_source": "CEFR-SP",
+          "metadata_id": "cefr_878",
+          "metadata_grade_level": 2
+        },
+        {
+          "input": "Have you just arrived ?",
+          "output": "1",
+          "metadata_source": "CEFR-SP",
+          "metadata_id": "cefr_216",
+          "metadata_grade_level": 1
+        },
+        {
+          "input": "A key feature of NMR is that the resonance frequency of a particular simple substance is usually directly proportional to the strength of the applied magnetic field .",
+          "output": "8",
+          "metadata_source": "CEFR-SP",
+          "metadata_id": "cefr_6708",
+          "metadata_grade_level": 8
+        },
+        {
+          "input": "In some jurisdictions , schools are required to conduct regular tornado drills , though generally less frequently than fire drills .",
+          "output": "8",
+          "metadata_source": "CEFR-SP",
+          "metadata_id": "cefr_6685",
+          "metadata_grade_level": 8
+        },
+        {
+          "input": "They wish they could be happy .",
+          "output": "1",
+          "metadata_source": "CEFR-SP",
+          "metadata_id": "cefr_162",
+          "metadata_grade_level": 1
+        },
+        {
+          "input": "He had to wear a tie to work .",
+          "output": "1",
+          "metadata_source": "CEFR-SP",
+          "metadata_id": "cefr_295",
+          "metadata_grade_level": 1
+        },
+        {
+          "input": "Hydrazoic acid is extremely toxic , even more toxic than sodium azide .",
+          "output": "8",
+          "metadata_source": "CEFR-SP",
+          "metadata_id": "cefr_6198",
+          "metadata_grade_level": 8
+        },
+        {
+          "input": "The first-line psychiatric treatment for schizophrenia is antipsychotic medication , which can reduce the positive symptoms of psychosis in about 7 to 14 days .",
+          "output": "10",
+          "metadata_source": "CEFR-SP",
+          "metadata_id": "cefr_7119",
+          "metadata_grade_level": 10
+        },
+        {
+          "input": "The piezoelectric effect is generally stronger in materials that also exhibit pyroelectricity , and all pyroelectric materials are also piezoelectric .",
+          "output": "10",
+          "metadata_source": "CEFR-SP",
+          "metadata_id": "cefr_7177",
+          "metadata_grade_level": 10
+        },
+        {
+          "input": "The authors were able to experimentally determine a rate law at 261.2 K for the reaction of 1,2 - dimethylidenecyclohexane with sulfur dioxide to give the corresponding sulfolene .",
+          "output": "10",
+          "metadata_source": "CEFR-SP",
+          "metadata_id": "cefr_7172",
+          "metadata_grade_level": 10
+        },
+        {
+          "input": "Differential cryptanalysis attacks are usually chosen plaintext attacks , meaning that the attacker must be able to obtain encrypted ciphertexts for some set of plaintexts of his choosing .",
+          "output": "10",
+          "metadata_source": "CEFR-SP",
+          "metadata_id": "cefr_7146",
+          "metadata_grade_level": 10
+        },
+        {
+          "input": "My method of testing olive oil is as follows:\nFirst, the so-called elaidine test is made, and then the test with nitric acid. About 5 c. c. (a teaspoonful) of the oil is mixed in a test tube with its own volume of nitric acid, spec. gr. 1.30, and shaken violently for one minute. At the expiration of this time the oils will have acquired the following colors: Olive oil, pale green; cotton seed oil, yellowish brown; sesame, white; sun flower, dirty white; peanut, rape, and castor oils, pale pink or rose.\nAs soon as the color has been observed, the test glass is put in a water bath at the full boiling temperature and left there five minutes. It was found that the action of nitric acid upon cotton seed and sesame oil was the most violent, sometimes so violent as to throw the oil out of the glass. At the end of another five minutes after the test tube is taken out of the water bath, the following colors are seen: olive and rapeseed oils are red; castor oil is golden yellow; sun flower oil, reddish yellow; sesame and peanut, brownish yellow; cotton seed, reddish brown.",
+          "output": "11",
+          "metadata_source": "CommonLit",
+          "metadata_id": "commonlit_train_2932",
+          "metadata_grade_level": 11
+        },
+        {
+          "input": "I have known several cases in which treasure lost by piracy or shipwreck has been recovered after a century or more. Some years ago a company of men from Boston made two cruises to the shoals of the Silver Key on the Bahama Banks, a spot noted for shipwrecks. They had some clue to a treasure-laden ship which had foundered there long ago. The first trip was unsuccessful, but on the second voyage the wreck was found. Divers, armed with modern apparatus, spent several days in the quest, but in vain, until, finally, just as the last diver was about to give the signal to be drawn up, he leaned against what seemed only the barnacle-encrusted end of a beam; but suddenly it gave way, and numbers of golden doubloons rolled out at his feet. Considerable sums rewarded further search in the sand-filled and decaying carcass of the old ship; but exactly how much was realized is known only to the discoverers, who kept the matter secret, and thus evaded paying a great part of the share due to the British crown, in whose dominion the treasure was found.",
+          "output": "12",
+          "metadata_source": "CommonLit",
+          "metadata_id": "commonlit_train_2350",
+          "metadata_grade_level": 12
+        },
+        {
+          "input": "The Red Cross bandages which he had rolled had had to be rolled over again. The seeds which he had planted had not come up, because he had buried them instead of planting them. Roy's onion plants were peeping coyly forth in the troop's patriotic garden; Doc Carson's lettuce was showing the proper spirit; a little regiment of humble radishes was mobilizing under the loving care of Connie Bennett, and Pee-wee's tomatoes were bold with flaunting blossoms. A bashful cucumber which basked unobtrusively in the wetness of the ice-box outlet under the shed at Artie Van Arlen's home was growing apace. But not a sign was there of Tom's beans or peas or beets\u2014nothing in his little allotted patch but a lonely plantain which he had carefully nursed until Pee-wee had told him the bitter truth\u2014that this child of his heart was nothing but a vulgar weed.\nIt is true that Roy Blakeley had tried to comfort Tom by telling him that if his seeds did not come up in Bridgeboro they might come up in China, for they were as near to one place as the other! Tom had not been comforted.",
+          "output": "11",
+          "metadata_source": "CommonLit",
+          "metadata_id": "commonlit_train_1410",
+          "metadata_grade_level": 11
+        },
+        {
+          "input": "Jack was quite a large bird. His body was black as coal; his breast was white; and his wings and tail shaded off into a dark green. His bill was long and very strong. He had a shrewd, knowing look. As he was quite tame, he must have been some one's pet.\nHe would hop and strut around in such a funny, pompous way, that one could not help laughing. He would take food from any one's hand, but would not let any one touch him, except Mr. Hart, the children's father.\nTo Mr. Hart he seemed to take a great liking. He would hop on to his hand or shoulder: he would follow him all over the place. As soon as Mr. Hart came into the house, Jack would stand outside the door, and scream to him to come out. Indeed, Jack was almost too fond of him.\nOne day when Mr. Hart was chopping wood, Jack kept laying his bill within two or three inches of the place where the axe fell. It seemed just as if he wanted his bill chopped off.",
+          "output": "3",
+          "metadata_source": "CommonLit",
+          "metadata_id": "commonlit_validation_74",
+          "metadata_grade_level": 3
+        },
+        {
+          "input": "The reason for this avoidance of each other at their respective rural residences may be briefly stated. Mr. Buller's country house was situated by the sea, and he was very fond of the water. He had a good cat-boat, which he sailed himself with much judgment and skill, and it was his greatest pleasure to take his friends and visitors upon little excursions on the bay. But Mr. Podington was desperately afraid of the water, and he was particularly afraid of any craft sailed by an amateur. If his friend Buller would have employed a professional mariner, of years and experience, to steer and manage his boat, Podington might have been willing to take an occasional sail; but as Buller always insisted upon sailing his own boat, and took it ill if any of his visitors doubted his ability to do so properly, Podington did not wish to wound the self-love of his friend, and he did not wish to be drowned. Consequently he could not bring himself to consent to go to Buller's house by the sea.",
+          "output": "12",
+          "metadata_source": "CommonLit",
+          "metadata_id": "commonlit_train_2043",
+          "metadata_grade_level": 12
+        },
+        {
+          "input": "The Age of Discovery is an informal and loosely defined European historical period from the 15th century to the 18th century, marking the time in which extensive overseas exploration emerged as a powerful factor in European culture and globalization. Many lands previously unknown to Europeans were discovered during this period, though most were already inhabited and from the perspective of many non-Europeans it marked the arrival of settlers and invaders from a previously unknown continent. Global exploration started with the Portuguese discoveries of the Atlantic archipelagos of Madeira and the Azores, the coast of Africa, and the discovery of the sea route to India in 1498; and, on behalf of the Crown of Castile (Spain), the trans-Atlantic Voyages of Christopher Columbus between 1492 and 1502, and the first circumnavigation of the globe in 1519\u20131522. These discoveries led to numerous naval expeditions across the Atlantic, Indian and Pacific oceans, and land expeditions in the Americas, Asia, Africa, and Australia that continued into the late 19th century, and ended with the exploration of the polar regions in the 20th century.",
+          "output": "12",
+          "metadata_source": "CommonLit",
+          "metadata_id": "commonlit_train_929",
+          "metadata_grade_level": 12
+        },
+        {
+          "input": "There were all sorts of strange and absurd ideas afloat as to the shape of the earth. Some people thought it was round like a pancake and that the waters which surrounded the land gradually changed into mist and vapor and that he who ventured out into these vapors fell through the mist and clouds down into\u2014they knew not where. Others believed that there were huge monsters living in the distant waters ready to swallow any sailor who was foolish enough to venture near them.\nBut Christopher Columbus had grown to be a very wise and thoughtful man, and from all he could learn from the maps of his father-in-law and the books which he read, and from the long talks which he had with some other learned men, he grew more and more certain that the world was round like an orange, and that by sailing westward from the coast of Portugal one could gradually go round the world and find at last the wonderful land of Cathay, the strange country which lay far beyond the sea, the accounts of which had so thrilled him as a boy.",
+          "output": "12",
+          "metadata_source": "CommonLit",
+          "metadata_id": "commonlit_train_3050",
+          "metadata_grade_level": 12
+        },
+        {
+          "input": "There are strange new fish swimming in the sea. They look and behave like ordinary fish. But they are made of metal and foam, cloth and plastic.\nRoboTuna swims far and fast like other tuna fish. It is also a policeman underwater. It chases smugglers and pirates at sea.\nSoFi is a soft robot with fins and a tail. It takes videos of life deep inside the ocean. The fish are not afraid. They swim with SoFi.\nJellyfish Robot is made of gel. It catches fish with its soft, transparent tentacles. It swims around without being seen.\nRobot Eel has a long, black body and red eyes. One day, it might live on the sea floor. It might fix broken pipes and machines underwater.\nOctoBot looks like a small octopus. One day, it could search for people lost at sea. It might even kill germs in the water.\nOne day, these strange new fish will swim far and deep. They will show us the secrets of the sea.",
+          "output": "3",
+          "metadata_source": "CommonLit",
+          "metadata_id": "commonlit_train_1383",
+          "metadata_grade_level": 3
+        },
+        {
+          "input": "December was an anxious month. Several German divisions were east of the Piave, and an attempt to force the river and capture Venice was considered likely. Local attacks grew more and more severe, and, though the progress of the enemy was not great and Italian counterattacks were constantly made, the danger of a breakthrough increased. The Austrians were being encouraged to persevere in the hope of getting down to the plains for the Winter. \nRear lines of defense were constructed, and as time passed and the preparations were well forward the feeling of security grew, and was further increased by the recapture by the Italians of the slopes of Monte Asolone on Dec. 22. The following day Mount Melago and Col del Rosso, on the Asiago Plateau, were lost, but the Italians regained the former by a counterattack. Though Christmas Day found the situation still serious, especially on the Asiago, where the Italians, while fighting stubbornly, suffered from strain and cold, the situation showed signs of improvement. This outlook was brightened still further by the capture of Mount Tomba, with 1,500 prisoners, by the French. In this action British artillery assisted.",
+          "output": "11",
+          "metadata_source": "CommonLit",
+          "metadata_id": "commonlit_train_180",
+          "metadata_grade_level": 11
+        },
+        {
+          "input": "Immediately following the Captain's shouts, a great hulk loomed up right beside the yacht, and a fearful blow to the rear end of the pleasure craft sent her flying diagonally out of her path, across the water. The collision made her nose dip down dangerously while the stern rose up clear of the waves.\nThe group seated forwards slid together, and some were thrown from their chairs, but managed to catch hold of the ropes and rail to prevent being thrown overboard.\nPolly and Tom, standing, unaware, so near the open gap in the rail, still arm in arm as they had been walking, were thrown violently side-ways and there being nothing at hand to hold to, or to prevent their going over the side, they fell into the dark sea.\nFeeling as if the earth had dropped from under her, Polly screamed in terror before her voice was choked with water. Tom instinctively held on to her arm, as he had been doing when the impact of a larger vessel came upon the yacht, and he maintained this grip as they both sank.",
+          "output": "11",
+          "metadata_source": "CommonLit",
+          "metadata_id": "commonlit_train_2424",
+          "metadata_grade_level": 11
+        },
+        {
+          "input": "Jack and Frank sat long by the window, waiting for Ned and Jimmie to return. The doors of the adjoining rooms were wide open, so they had a full view of the lower floor. There were windows, unglazed like that which looked out on the Gulf of Pechili, too, and the lads could see for some distance along the street which ran parallel with the one upon which the miserable old structure faced.\nPresently a mist crept over the sky, and black clouds rolled in from the threatening canopy over the gulf. There was evidently a storm brewing, and, besides, the night was coming on. In spite of the fact that they had a good view all about them, so far as the house and its immediate vicinity was concerned, both boys felt that almost indescribable sensation which one experiences when being observed from behind by keen and magnetic eyes. They were not exactly afraid, but they had premonitions of approaching trouble.",
+          "output": "9",
+          "metadata_source": "CommonLit",
+          "metadata_id": "commonlit_train_3192",
+          "metadata_grade_level": 9
+        },
+        {
+          "input": "Jack and Fred sat on the steps, trying to think of something to do. They had spent their morning in digging wells and ditches in the sand; for it was vacation-time, and they were living down by the sea.\nJust before dinner they had been in bathing. Since dinner they had been over in the fields, picking up long feathery grasses to put in mamma's vases. And now, what should they do next?\nAt last, Jack thought it would be fine fun to make a large kite, much larger than any they had ever seen. Fred said he would help; and off they ran to get sticks, tacks, paper, paste, and string, so as to have every thing ready.\nWhen they could think of nothing else that was needed, they set to work. Jack cut and tacked the sticks together, just as the smaller ones were in his little old kite; while Fred cut the papers, and made the tail.",
+          "output": "5",
+          "metadata_source": "CommonLit",
+          "metadata_id": "commonlit_train_427",
+          "metadata_grade_level": 5
+        },
+        {
+          "input": "Air, like every other gas or combination of gases, possesses weight; some persons who have been taught that the air exerts a pressure of 14.7 lb. per square inch, cannot, however, be got to realize the fact that a cubic foot of air at the same pressure and at a temperature of 62 deg. weighs the thirteenth part of a pound, or over one ounce; 13.141 cubic feet of air weigh one pound. In round numbers 30,000 cubic feet of air weigh one ton; this is a useful figure to remember, and it is easily carried in the mind. A hall 61 feet long, 30 feet wide, and 17 feet high will contain one ton of air.\nThe work to be done by a fan consists in putting a weight--that of the air--in motion. The resistances incurred are due to the inertia of the air and various frictional influences; the nature and amount of these last vary with the construction of the fan. As the air enters at the center of the fan and escapes at the circumference, it will be seen that its motion is changed while in the fan through a right angle.",
+          "output": "9",
+          "metadata_source": "CommonLit",
+          "metadata_id": "commonlit_train_3226",
+          "metadata_grade_level": 9
+        },
+        {
+          "input": "The atoms of a chemical element can exist in different types. These are called isotopes. They have the same number of protons (and electrons), but different numbers of neutrons. Different isotopes of the same element have different masses. Mass is the word for how much substance (or matter) something has. Things with different masses have different weights. Because different isotopes have different numbers of neutrons, they do not all weigh the same or have the same mass.\nDifferent isotopes of the same element have the same atomic number. They have the same number of protons. The atomic number is decided by the number of protons. Isotopes have different mass numbers, though, because they have different numbers of neutrons.\nThe word isotope, meaning at the same place, comes from the fact that isotopes are at the same place on the periodic table.",
+          "output": "7",
+          "metadata_source": "CommonLit",
+          "metadata_id": "commonlit_train_2366",
+          "metadata_grade_level": 7
+        },
+        {
+          "input": "Milka and John are playing in the garden. Her little sister is playing too. Milka is ready to start classes next week and it will be her first term in school. In the morning, Milka gets up early to take a bath. She puts on her school uniform and carries her school bag. Her Mother gives her two thousand shillings for school fees and five hundred shillings for transport. Then, she quickly goes to school. Meanwhile, her big brother stays at home. He is still in his bed and sleeps. Once she grows up and graduates school, Milka dreams to build a beautiful house for her and her family. While she is at school, she is very active and participates in all the activities. The teachers love her attitude. Milka listens carefully to her teacher. Her classmates admire her too, because she is a kind girl. At break time she tries to help other classmates with their practical exercies and homeworks.",
+          "output": "5",
+          "metadata_source": "CommonLit",
+          "metadata_id": "commonlit_validation_54",
+          "metadata_grade_level": 5
+        },
+        {
+          "input": "Rinaldo was one of the four sons of Aymon, who married Aya, the sister of Charlemagne. Thus Rinaldo was nephew to Charlemagne and cousin of Orlando. When Rinaldo had grown old enough to assume arms, Orlando had won for himself an illustrious name by his exploits against the Saracens, whom Charlemagne and his brave knights had driven out of France. Orlando's fame excited a noble emulation in Rinaldo. Eager to go in pursuit of glory, he wandered in the country near Paris, and one day saw at the foot of a tree a superb horse, fully equipped and loaded with a complete suit of armor. Rinaldo clothed himself in the armor and mounted the horse, but took not the sword. On the day when, with his brothers, he had received the honor of knighthood from the Emperor, he had sworn never to bind a sword to his side till he had wrested one from some famous knight.",
+          "output": "9",
+          "metadata_source": "CommonLit",
+          "metadata_id": "commonlit_validation_679",
+          "metadata_grade_level": 9
+        },
+        {
+          "input": "A regnal year is a year of the reign of a monarch. It is from the Latin regnum meaning kingdom or rule. Some of the oldest dating systems were in regnal years. A regnal year usually begins on the date of a monarch's accession to the throne. Year one is counted from day one to the end of the first year of a monarch's reign. Then a second year of rule, a third, and so on. They would not have a zero year of rule. It is displayed as an ordinal, not a cardinal number.\nEvery year of a monarch's reign falls within two calendar years, unless the reign began on the first day of the calendar year. When converting a regnal year in history to a calendar year, this can cause an error of one year. In England, from the 10th century until the late 13th century, the practice was to count the regnal year from the date of coronation. This was usually a later date than when a monarch was proclaimed king or queen.",
+          "output": "5",
+          "metadata_source": "CommonLit",
+          "metadata_id": "commonlit_train_469",
+          "metadata_grade_level": 5
+        },
+        {
+          "input": "My parents fed me constantly with tender worms; and it is no wonder that the feathers began to grow on my naked little body, or that my father soon thought me able to fly. So one fine day I stood on the edge of the nest, fluttered my wings, and flew out of my father's house. With many fears and a beating heart I at last alighted on an acacia-tree. While I sat there, I saw many large birds walking about, and also a cat, against whom my mother had already warned me; and, directly over my head, I heard the scream of a hawk.\nIn my fright, I cried out bitterly; but when the cat ran away, and the hawk flew into the woods near by, I grew calm again. My cry soon brought my mother to my side; and my father came, bringing a delicious worm to comfort me.",
+          "output": "9",
+          "metadata_source": "CommonLit",
+          "metadata_id": "commonlit_train_936",
+          "metadata_grade_level": 9
+        },
+        {
+          "input": "An ancestor is a person from whom one is descended. Usually it refers to a remote person, rather than the immediate parents or grandparents. A very similar word is forebear. A female ancestor may be called an ancestress. The line of people from whom a person descends is referred to as their ancestry.\nA second meaning relates to evolution. There, it is used of an animal or plant from which others have evolved. In a similar way, it can be used for an early prototype or forerunner of a later device.\nIn law an ancestor can mean the person from whom an estate is lawfully obtained. No blood relationship is necessarily implied. More commonly, however, it is the person from whom an estate is obtained based on law and blood.\nTwo people have a genetic relationship if one is the ancestor of the other, or if they share a common ancestor. Each of someone's ancestors will have contributed to their DNA. In evolution, species that have evolved from the same ancestor are said to be of common descent.",
+          "output": "7",
+          "metadata_source": "CommonLit",
+          "metadata_id": "commonlit_train_69",
+          "metadata_grade_level": 7
+        },
+        {
+          "input": "The night passed without alarm. The gale continued to blow with fury, and until it abated Edmund had little fear that the Danes would venture upon an attack. They had indeed no reason for haste. The Saxon vessel was in their waters, and could not return so long as the storm continued to blow from the east. The next day parties of Danes were seen making their way across the swampy country from the direction of Yarmouth.\nAs soon, however, as these approached near enough to see the Saxons in readiness on the walls of the castle they retired at once, knowing that the place could be captured by nothing short of a prolonged and desperate siege. On the fourth day the storm abated, and the Saxons prepared to make their way seaward again. The wind still blew, but lightly, from the same quarter, and the sails would therefore be of no use. With their great oar-power they were confident that, once through the Danish flotilla, they could defy pursuit.",
+          "output": "7",
+          "metadata_source": "CommonLit",
+          "metadata_id": "commonlit_train_1190",
+          "metadata_grade_level": 7
+        },
+        {
+          "input": "Corals are both plants and animals. Thousands of little algae live inside corals, and give them energy to grow. They have hard outer skeletons and grow into many different shapes. Plankton is the main source of food for many sea creatures. They are a mix of algae, bacteria, tiny animals, and the eggs and larvae of larger animals that float about with the ocean currents. Feather stars may look like plants, but they're really animals. They use their feather-like \u2018arms' to catch and eat bits of floating plankton.\nParrotfish have strong teeth that form a parrot-like beak, which they use to scrape algae off hard coral. Some species don't mind eating bits of coral as well, and they later poop out a fine sand that washes up on land to form beautiful white beaches. Clownfish and sea anemones live together and help each other. The clownfish help the anemones by cleaning their tentacles and luring other fish for the anemone to eat. The anemones, in turn, allow the clownfish to hide among their poisonous tentacles without stinging them. \nCleaner wrasses are small fish that keep bigger fish clean by feeding on their parasites and dead skin.",
+          "output": "7",
+          "metadata_source": "CommonLit",
+          "metadata_id": "commonlit_train_208",
+          "metadata_grade_level": 7
+        },
+        {
+          "input": "When the young people returned to the ballroom, it presented a decidedly changed appearance. Instead of an interior scene, it was a winter landscape.\nThe floor was covered with snow-white canvas, not laid on smoothly, but rumpled over bumps and hillocks, like a real snow field. The numerous palms and evergreens that had decorated the room, were powdered with flour and strewn with tufts of cotton, like snow. Also diamond dust had been lightly sprinkled on them, and glittering crystal icicles hung from the branches.\nAt each end of the room, on the wall, hung a beautiful bear-skin rug.\nThese rugs were for prizes, one for the girls and one for the boys. And this was the game.\nThe girls were gathered at one end of the room and the boys at the other, and one end was called the North Pole, and the other the South Pole. Each player was given a small flag which they were to plant on reaching the Pole.\nThis would have been an easy matter, but each traveller was obliged to wear snowshoes.",
+          "output": "5",
+          "metadata_source": "CommonLit",
+          "metadata_id": "commonlit_train_1843",
+          "metadata_grade_level": 5
+        },
+        {
+          "input": "Sketching and drawing are very important skills in Technology. They allow us to share our ideas, designs, and technical solutions with other people. In this chapter, you will learn what the main purpose of graphics are. You will also learn about the different meanings of thick and dark lines, thin and feint lines, and dashed lines. And you will learn a little bit about scale and how to show sizes on drawings. But the most important thing about sketching and drawing is that you need to practise. So in this chapter you will learn how to do some simple sketches and how to do a flat drawing showing sizes.\nHere are some questions you should ask yourself: How many doors should it have? How many shelves should it have? What should it be made of? How high and how wide should it be? How deep should it be? \nMake a rough sketch to show what you think the cupboard will look like. Make a bigger and better sketch of the cupboard. Write notes next to your drawing to show where the doors and shelves are.",
+          "output": "3",
+          "metadata_source": "CommonLit",
+          "metadata_id": "commonlit_train_1532",
+          "metadata_grade_level": 3
+        },
+        {
+          "input": "This is Billy. He is the goat Jan was given by his father as a gift. Even though Billy is stubborn, Jan loves him very much. He always gives birth to healthy kids that Jan and his father sell. Yesterday Billy went out of their compound with her two kids. Jan does not like this because the kids easily get stolen or be eaten by dogs. Billy chewed the books containing all the homework Ann had done. Ann was angry that she was going to be punished by her teacher. She kicked Billy very had. This made Jan angry. He locked himself in his room to play with his toys. Jan is afraid that his father will sell Billy for what he has done. However, Mr. Tom, his father does not want to annoy his son by selling Billy. He has promised to wait until the kids are old enough so that he can give one to Jan.",
+          "output": "3",
+          "metadata_source": "CommonLit",
+          "metadata_id": "commonlit_train_3102",
+          "metadata_grade_level": 3
+        }
+      ]
+    }
+  ]
+}
