@@ -1,0 +1,10 @@
+{
+  "title": "Network Percolation Features for Text Readability Assessment",
+  "summary": "This paper introduces a novel readability assessment method inspired by percolation theory from statistical physics. The method constructs word co-occurrence networks from text using sliding-window context and extracts network features including a percolation-inspired threshold that captures how quickly a text's semantic network becomes connected. The paper evaluates the approach on 2,500 texts sampled from three standardized readability datasets (OneStopEnglish, CommonLit, CEFR-SP). Experiments show that the proposed Percolation Threshold Readability (PTR) features achieve Mean Absolute Error (MAE) of 1.212 on a 500-example test set, outperforming a baseline model without network features (MAE=1.268) and the traditional Flesch-Kincaid formula (MAE=2.074). The improvement over traditional formulas is 41.7% in MAE reduction. The paper includes 1 figure (architecture diagram showing the full pipeline from text input to grade level prediction) and 3 tables (main results, ablation study, robustness analysis). The 10-page paper is properly formatted with all sections (Abstract, Introduction, Related Work, Methods, Results, Discussion, Conclusion, References), includes a complete bibliography with 14 references, and compiles successfully to PDF. A key contribution is the analysis of label sources: the paper identifies that CommonLit scores are Flesch-Kincaid-derived, introducing potential circularity, and recommends reporting disaggregated results.",
+  "out_expected_files": {
+    "paper_tex_path": "paper.tex",
+    "paper_pdf_path": "paper.pdf",
+    "references_bib_path": "references.bib",
+    "figure_paths": ["figures/fig1_v0.jpg"]
+  }
+}

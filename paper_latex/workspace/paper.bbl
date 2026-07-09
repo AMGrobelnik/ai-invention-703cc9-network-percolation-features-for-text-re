@@ -1,0 +1,101 @@
+\begin{thebibliography}{14}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Collins-Thompson(2014)]{CollinsThompson2014}
+Kevyn Collins-Thompson.
+\newblock Computational assessment of text readability: A survey of current and
+  future research.
+\newblock \emph{ITL International Journal of Applied Linguistics}, 165\penalty0
+  (2):\penalty0 97--135, 2014.
+\newblock \doi{10.1075/itl.165.2.01col}.
+
+\bibitem[Crossley et~al.(2022)]{Crossley2022}
+Scott Crossley et~al.
+\newblock A large-scaled corpus for assessing text readability.
+\newblock \emph{Behavior Research Methods}, 55:\penalty0 491--507, 2022.
+\newblock \doi{10.3758/s13428-022-01891-7}.
+
+\bibitem[Dale and Chall(1948)]{Dale1948}
+Edgar Dale and Jeanne~S. Chall.
+\newblock A formula for predicting readability.
+\newblock \emph{Educational Research Bulletin}, 27\penalty0 (1):\penalty0
+  11--20, 1948.
+
+\bibitem[Flesch(1948)]{Flesch1948}
+Rudolf Flesch.
+\newblock A new readability yardstick.
+\newblock \emph{Journal of Applied Psychology}, 32\penalty0 (3):\penalty0
+  221--233, 1948.
+\newblock \doi{10.1037/h0057532}.
+
+\bibitem[Kenett et~al.(2018)Kenett, Levy, Kenett, Stanley, Faust, and
+  Havlin]{Kenett2018}
+Yoed~N. Kenett, Orr Levy, David~Y. Kenett, H.~Eugene Stanley, Miriam Faust, and
+  Shlomo Havlin.
+\newblock Flexibility of thought in high creative individuals represented by
+  percolation analysis.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 115\penalty0
+  (5):\penalty0 867--872, 2018.
+\newblock \doi{10.1073/pnas.1717362115}.
+
+\bibitem[Kintsch(1998)]{Kintsch1998}
+Walter Kintsch.
+\newblock \emph{Comprehension: A paradigm for cognition}.
+\newblock Cambridge University Press, 1998.
+
+\bibitem[Li et~al.(2022)]{Li2022}
+Mingyang Li et~al.
+\newblock Unified bert model with feature projection for readability
+  assessment.
+\newblock In \emph{Proceedings of the 17th Workshop on Innovative Use of NLP
+  for Building Educational Applications (BEA-17)}, pages 123--135, 2022.
+
+\bibitem[Liu and Lee(2023)]{Liu2023}
+Yang Liu and J.~Lee.
+\newblock Hybrid models for sentence readability assessment.
+\newblock In \emph{Proceedings of the 18th Workshop on Innovative Use of NLP
+  for Building Educational Applications (BEA-18)}, pages 37--49, 2023.
+
+\bibitem[McLaughlin(1969)]{McLaughlin1969}
+G.~Harry McLaughlin.
+\newblock Smog grading: A new readability formula.
+\newblock \emph{Journal of Reading}, 12\penalty0 (8):\penalty0 639--646, 1969.
+
+\bibitem[Redish(2000)]{Redish2000}
+Janice~C. Redish.
+\newblock Readability formulas have even more limitations than klare discusses.
+\newblock \emph{Technical Communication}, 47\penalty0 (2):\penalty0 257--270,
+  2000.
+
+\bibitem[Senter and Smith(1967)]{Senter1967}
+R.~J. Senter and Edgar~A. Smith.
+\newblock Automated readability index.
+\newblock Technical Report AMRL-TR-66-195, Aerospace Medical Research
+  Laboratories, Wright-Patterson Air Force Base, Ohio, 1967.
+
+\bibitem[Vajjala and Lucic(2018)]{Vajjala2018}
+Sowmya Vajjala and Ivana Lucic.
+\newblock Onestopenglish corpus: A new corpus for automatic readability
+  assessment and text simplification.
+\newblock In \emph{Proceedings of the Eleventh International Conference on
+  Language Resources and Evaluation (LREC 2018)}, pages 297--304, 2018.
+\newblock \doi{10.18653/v1/W18-0535}.
+
+\bibitem[Vajjala and Meurers(2013)]{Vajjala2013}
+Sowmya Vajjala and Detmar Meurers.
+\newblock On the applicability of readability models to web texts.
+\newblock In \emph{Proceedings of the 8th Workshop on Innovative Use of NLP for
+  Building Educational Applications (BEA-8)}, pages 109--119, 2013.
+
+\bibitem[Zhang et~al.(2026)]{Zhang2026}
+Li~Zhang et~al.
+\newblock Automatic text readability assessment for educational content based
+  on graph representation learning.
+\newblock \emph{Scientific Reports}, 16:\penalty0 11308, 2026.
+\newblock \doi{10.1038/s41598-026-41313-9}.
+
+\end{thebibliography}
